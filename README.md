@@ -27,7 +27,7 @@ become a daily brief. Each claim carries the message ids it came from, and the
 ids are checked against the archive before saving. When the model invents a
 citation, the count on the card shows the hole.
 
-Elixir is where most of my code goes. JavaScript and Python fill the gaps, and C# appears
-whenever an old Unity build needs something.
+Elixir and Phoenix are where most of my code goes. JavaScript and Python fill the gaps, and
+C# appears whenever an old Unity build needs something.
 
 **Elsewhere:** [c1tymorgu3.com](https://c1tymorgu3.com) · [Telegram Vault](https://github.com/c1tymorgu3/telegram-vault) · [hunt-and-prove](https://github.com/c1tymorgu3/hunt-and-prove)
