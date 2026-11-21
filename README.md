@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="logo.png" width="190" alt="">
+  <img src="logo.png" width="220" alt="">
 
   ### c1tymorgu3
 
