@@ -3,31 +3,43 @@
 
   ### c1tymorgu3
 
-  I take software that was left behind and make it run again.<br>
+  I take software apart. Sometimes to fix it, sometimes to see what it hides.<br>
   İstanbul, Türkiye
 </div>
 
 ---
 
-Most of what I do starts with something that no longer works. A 2009 children's
-game that throws a wobbly on a modern CPU. A chat archive nobody can search.
-Either it gets fixed, or it gets rebuilt in a form that will still open in ten
-years.
+Three kinds of work, one habit: read the thing before touching it.
 
-**[TRT Çocuk Yarışçı](https://github.com/c1tymorgu3/yarisci-arazi)** is the first
-kind. Unity 2.6 build, decompiled, three input bugs fixed. The carousel spun at
-several hundred RPM because the animation was tied to frame count. Enter never
-registered on the vehicle screen because the listener sat inside `FixedUpdate`.
-Both are frame-rate problems, both are gone now, and the source is public.
+**Left behind.** A 2009 children's game that throws a wobbly on a modern CPU.
+[TRT Çocuk Yarışçı](https://github.com/c1tymorgu3/yarisci-arazi) is a Unity 2.6
+build, decompiled, three input bugs fixed. The carousel spun at several hundred
+RPM because the animation was tied to frame count. Enter never registered on the
+vehicle screen because the listener sat inside `FixedUpdate`. Both are frame-rate
+problems, both are gone, and the source is public.
 
-**[Telegram Vault](https://github.com/c1tymorgu3/telegram-vault)** is the second.
-It began as a logging exercise and turned into an archive you can question. Every
-two hours new messages are pulled into structured records; at midnight those
-become a daily brief. Each claim carries the message ids it came from, and the
-ids are checked against the archive before saving. When the model invents a
-citation, the count on the card shows the hole.
+**Not searchable.** [Telegram Vault](https://github.com/c1tymorgu3/telegram-vault)
+began as a logging exercise and turned into an archive you can question. Every two
+hours new messages are pulled into structured records; at midnight those become a
+daily brief. Each claim carries the message ids it came from, and the ids are
+checked against the archive before saving. When the model invents a citation, the
+count on the card shows the hole.
 
-Elixir and Phoenix are where most of my code goes. JavaScript and Python fill the gaps, and
-C# appears whenever an old Unity build needs something.
+**Keeping a secret.** The third kind is closed software with something to protect:
+a messenger's photo labels, a marketplace's private API, a build with no symbols.
+[hunt-and-prove](https://github.com/c1tymorgu3/hunt-and-prove) is the methodology I
+run those against — gates, hunters, refuters. [zifir](https://github.com/c1tymorgu3/zifir)
+goes the other direction: an Elixir cell, store and verifier for an anonymous
+messaging protocol, with its limits measured instead of asserted.
 
-**Elsewhere:** [c1tymorgu3.com](https://c1tymorgu3.com) · [Telegram Vault](https://github.com/c1tymorgu3/telegram-vault) · [hunt-and-prove](https://github.com/c1tymorgu3/hunt-and-prove)
+Smaller work: [rpshift-translator](https://github.com/c1tymorgu3/rpshift-translator)
+turns Turkish GTA V RP chat into American slang through DeepL and Groq;
+[elixir-rate-limiter](https://github.com/c1tymorgu3/elixir-rate-limiter) and
+[elixir-music-journey](https://github.com/c1tymorgu3/elixir-music-journey) are where
+Elixir gets exercised.
+
+### Tech stack
+
+![Elixir](https://img.shields.io/badge/elixir-%234B275F.svg?style=for-the-badge&logo=elixir&logoColor=white) ![Phoenix](https://img.shields.io/badge/phoenix-%23FD4F00.svg?style=for-the-badge&logo=phoenixframework&logoColor=white) ![Python](https://img.shields.io/badge/python-%233776AB.svg?style=for-the-badge&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/fastapi-%23009688.svg?style=for-the-badge&logo=fastapi&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white) ![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=dotnet&logoColor=white) ![Unity](https://img.shields.io/badge/unity-%23000000.svg?style=for-the-badge&logo=unity&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Linux](https://img.shields.io/badge/linux-%23FCC624.svg?style=for-the-badge&logo=linux&logoColor=black) ![Burp Suite](https://img.shields.io/badge/burp%20suite-%23FF6633.svg?style=for-the-badge&logo=burpsuite&logoColor=white) ![AutoHotkey](https://img.shields.io/badge/autohotkey-%23334455.svg?style=for-the-badge&logo=autohotkey&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)
+
+**Elsewhere:** [c1tymorgu3.com](https://c1tymorgu3.com)
