@@ -24,12 +24,6 @@ brief. Each claim carries the message ids it came from, and those ids are checke
 against the archive before saving. When the model invents a citation, the count on
 the card shows the hole.
 
-Smaller work: [rpshift-translator](https://github.com/c1tymorgu3/rpshift-translator)
-turns Turkish GTA V RP chat into American slang through DeepL and Groq;
-[elixir-rate-limiter](https://github.com/c1tymorgu3/elixir-rate-limiter) and
-[elixir-music-journey](https://github.com/c1tymorgu3/elixir-music-journey) are where
-Elixir gets exercised.
-
 <div align="center">
 
 ### Tech stack
