@@ -24,6 +24,13 @@ brief. Each claim carries the message ids it came from, and those ids are checke
 against the archive before saving. When the model invents a citation, the count on
 the card shows the hole.
 
+**No one to point at.** [zifiri](https://github.com/c1tymorgu3/zifiri)
+is an account-free board where a message waits in a ten-minute bucket, filled to
+120 entries with decoys and shuffled before anyone can read it. The row it becomes
+has no author column, so the database cannot answer who wrote it, and a two-click
+erase zeroes the pages instead of unlinking them. Forty-nine claims, each with a
+command that can refute it.
+
 <div align="center">
 
 ### Tech stack
